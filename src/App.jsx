@@ -10,8 +10,9 @@ import MyAdsPage from "./pages/MyAdsPage";
 import { useAuthStore } from "./features/authStore";
 
 import { useNavigate } from "react-router-dom";
-
+// YOLO
 function Navbar() {
+  // YOLO
   const user = useAuthStore(s => s.user);
   const logout = useAuthStore(s => s.logout);
   const navigate = useNavigate();
